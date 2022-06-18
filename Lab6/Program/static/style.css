@@ -1,0 +1,116 @@
+:root {
+  --primary-color: #313335;
+  --secondary-color: #3c3f41;
+}
+
+.blockR{
+    float: left;
+    display: none;
+    width: 200px;
+    border: 1px solid #313335;
+    margin: 2px;
+}
+
+.for_open_but{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Times;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+.for_open_but:hover {
+    color: #4CAF50;
+}
+input {border:0;outline:0;}
+input:focus {outline:none!important;}
+
+/*----TABLE----*/
+.tableClass{
+    background-color: #3c3f41;
+    margin : auto;
+}
+
+.trFirstClass{
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    height: 30px;
+    width: 50px; 
+}
+.trFirstClassId{
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    height: 30px;
+    width: 10px; 
+}
+.trFirstClass:focus{
+    color: black;
+    background-color:white;
+}
+
+.trSecondClass{
+    background-color: var(--secondary-color);
+    border: none;
+    color: white;
+    height: 30px;
+}
+
+.trSecondClass:focus{
+    color: black;
+    background-color:white;
+}
+
+/*---Buttons for tables name--*/
+
+.for_table_but{
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Times;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: grey; 
+    border: none;
+}
+.for_table_but:hover {
+    color: #4CAF50;
+    text-decoration: underline;
+}
+.for_save_but{
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Times;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: var(--primary-color) ; 
+    color: whitesmoke; 
+    border: none;
+}
+.for_save_but:hover {
+    background-color:white ; 
+    color: var(--primary-color);
+    border: 2px solid #4CAF50;     
+}
+
